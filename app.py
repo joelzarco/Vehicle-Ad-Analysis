@@ -32,9 +32,11 @@ if hist_button:
 # sub-dataset
 not_automatic = car_data[car_data.transmission != 'automatic']
 # check boxes
-auto_checkbox = st.checkbox('Automatic Vs Manual transmission')
+st.subheader('Transmission type market share:')
+st.write('North america is a mostly automatic transmission Country')
+auto_checkbox = st.checkbox('Dismiss automatic transmission')
 if auto_checkbox:
-	#
+	st.write('Even in newer models, manual transmission market share keeps declinig')
 	not_auto_hist = px.histogram(not_automatic, x=not_automatic.condition, color=not_automatic.transmission, title='Condition vs Manual Transmission')
 	st.plotly_chart(not_auto_hist, use_container_width=True)
 else:
