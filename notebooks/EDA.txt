@@ -1,0 +1,7 @@
+Hola!
+El proyecto de este sprint lo realice en google colab, el link para verlo es el siguiente:
+
+https://colab.research.google.com/drive/1MiIsI58SLZJzTBXHuS84MkPasWXRxa0O?usp=sharing
+
+De antemano gracias.
+Sergio Joel.
